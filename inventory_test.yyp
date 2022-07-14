@@ -1,6 +1,10 @@
 {
   "resources": [
+    {"id":{"name":"obj_gameManager","path":"objects/obj_gameManager/obj_gameManager.yy",},"order":5,},
+    {"id":{"name":"spr_room2","path":"sprites/spr_room2/spr_room2.yy",},"order":8,},
     {"id":{"name":"spr_welldone","path":"sprites/spr_welldone/spr_welldone.yy",},"order":5,},
+    {"id":{"name":"spr_room3","path":"sprites/spr_room3/spr_room3.yy",},"order":7,},
+    {"id":{"name":"spr_room1","path":"sprites/spr_room1/spr_room1.yy",},"order":6,},
     {"id":{"name":"Room7","path":"rooms/Room7/Room7.yy",},"order":5,},
     {"id":{"name":"checkSolution","path":"scripts/checkSolution/checkSolution.yy",},"order":2,},
     {"id":{"name":"obj_managerRoom2","path":"objects/obj_managerRoom2/obj_managerRoom2.yy",},"order":0,},
