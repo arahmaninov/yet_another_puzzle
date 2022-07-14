@@ -1,8 +1,17 @@
-/// @description
-#macro INVENTORY_SLOTS 15
-rowLength = 5;
+// INVENTORY_SLOTS: how many slots will be in the inventory
+// rowLength: how many slots will be in a row
+// both declared in Create event of obj_managerRoom#
 inventory = array_create(INVENTORY_SLOTS, -1);
-randomize();
-inventory[0] = 0;
-inventory[1] = 0;
-inventory[2] = 1;
+
+// draw inventory variables
+borderMargin = 6;
+cellSize = 36; // cell sprite size + 4px space between slots
+
+// items enum
+enum Items 
+{
+	ConeGreen,
+	CubeGreen,
+	CylinderGreen,
+	SphereGreen
+}

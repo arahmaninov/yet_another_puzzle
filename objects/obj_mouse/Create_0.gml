@@ -62,8 +62,12 @@ stateDrag = function()
 	mouseOver();
 	if (!mouse_check_button(mb_left))
 	{
-		// swap with slot if hovering
-		if (slotHover != -1) InventorySwap(inventoryDrag, slotDrag, inventoryHover, slotHover);
+		// swap with slot if hovering and check solution
+		if (slotHover != -1) 
+		{	
+			InventorySwap(inventoryDrag, slotDrag, inventoryHover, slotHover);
+			checkSolution();
+		}
 		
 		// return to free state
 		state = stateFree;
