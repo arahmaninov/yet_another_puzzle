@@ -15,6 +15,23 @@ if(keyboard_check_pressed(ord("3")))
 	room_goto(TestRoom3);
 }
 
+if(keyboard_check_pressed(ord("4")))
+{
+	room_goto(TestRoom4);
+}
+
+if(keyboard_check_pressed(ord("5")))
+{
+	room_goto(TestRoom5);
+}
+
+if(keyboard_check_pressed(ord("6")))
+{
+	room_goto(TestRoom6);
+}
+
+
+
 if(keyboard_check_pressed(ord("O")))
 {
 	room_goto(Room2);
