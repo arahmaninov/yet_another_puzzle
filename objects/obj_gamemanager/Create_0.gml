@@ -7,7 +7,15 @@ enum Items
 	ConeGreen,
 	CubeGreen,
 	CylinderGreen,
-	SphereGreen
+	SphereGreen,
+	ConeBlue,
+	CubeBlue,
+	CylinderBlue,
+	SphereBlue,
+	ConeRed,
+	CubeRed,
+	CylinderRed,
+	SphereRed
 }
 
 // level count
