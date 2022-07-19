@@ -41,13 +41,22 @@ if(keyboard_check_pressed(ord("8")))
 }
 
 
+if(keyboard_check_pressed(ord("I")))
+{
+	room_goto(Room9);
+}
 
 if(keyboard_check_pressed(ord("O")))
 {
-	room_goto(Room2);
+	room_goto(Room10);
 }
 
 if(keyboard_check_pressed(ord("P")))
 {
-	room_goto(Room3);
+	room_goto(Room11);
+}
+
+if(keyboard_check_pressed(ord("T")))
+{
+	room_goto(Done);
 }

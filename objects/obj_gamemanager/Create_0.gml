@@ -21,6 +21,9 @@ enum Items
 // level count
 global.level = 1;
 
+// music
+audio_play_sound(gamebackground, 1, true);
+
 // camera test
 
 //global.cameraSizes = [[320, 180],[640, 360], [960, 540]];

@@ -20,4 +20,4 @@ global.solution = [Items.CubeGreen, Items.CylinderGreen, Items.CubeGreen, Items.
 
 // numbers of rooms for goNextRandomRoom 
 global.nextRoom1 = 4;
-global.nextRoom2 = 5;
+global.nextRoom2 = 4;
