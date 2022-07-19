@@ -1,2 +1,2 @@
 /// @description Mouse over
-state();
+if (mouseOn) state();

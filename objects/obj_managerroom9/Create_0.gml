@@ -6,7 +6,13 @@ inventory1 = instance_create_layer(120, 200, "Mouse", obj_Inventory,
 }
 );
 
-inventory2 = instance_create_layer(450, 240, "Mouse", obj_Inventory, 
+// coordinates for target array & particles
+global.targetArrayX = 450;
+global.targetArrayY = 240;
+global.rowLength = 5;
+global.columnLength = 5;
+
+inventory2 = instance_create_layer(global.targetArrayX, global.targetArrayY, "Mouse", obj_Inventory, 
 {
 	INVENTORY_SLOTS: 25,
 	rowLength: 5,

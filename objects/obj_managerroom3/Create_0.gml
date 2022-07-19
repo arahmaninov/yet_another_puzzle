@@ -1,12 +1,18 @@
 /// @description
-inventory1 = instance_create_layer(200, 290, "Mouse", obj_Inventory, 
+inventory1 = instance_create_layer(250, 290, "Mouse", obj_Inventory, 
 {
 	INVENTORY_SLOTS: 2,
 	rowLength: 2,
 }
 );
 
-inventory2 = instance_create_layer(450, 290, "Mouse", obj_Inventory, 
+// coordinates for target array & particles
+global.targetArrayX = 430;
+global.targetArrayY = 290;
+global.rowLength = 6;
+global.columnLength = 1;
+
+inventory2 = instance_create_layer(global.targetArrayX, global.targetArrayY, "Mouse", obj_Inventory, 
 {
 	INVENTORY_SLOTS: 6,
 	rowLength: 6,

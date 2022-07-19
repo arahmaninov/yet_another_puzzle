@@ -8,7 +8,7 @@ part_system_depth(ps, -1);
 //Creating Particle Types
 //splash
 global.pt_splash = part_type_create();
-part_type_shape(global.pt_splash, pt_shape_pixel);
+part_type_shape(global.pt_splash, pt_shape_ring);
 part_type_size(global.pt_splash, 1, 1, 0, 0);
 part_type_scale(global.pt_splash, 1, 1);
 part_type_orientation(global.pt_splash, 0, 0, 0, 0, 0);

@@ -5,6 +5,8 @@ inventoryDrag = -1;
 slotDrag = -1;
 itemDrag = -1;
 
+mouseOn = true;
+
 mouseOver = function()
 {
 	// empty hover results

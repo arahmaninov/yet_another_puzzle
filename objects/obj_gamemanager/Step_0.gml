@@ -2,42 +2,37 @@
 
 if(keyboard_check_pressed(ord("1")))
 {
-	room_goto(TestRoom1);
+	room_goto(Room4);
 }
 
 if(keyboard_check_pressed(ord("2")))
 {
-	room_goto(TestRoom2);
+	room_goto(Room5);
 }
 
 if(keyboard_check_pressed(ord("3")))
 {
-	room_goto(TestRoom3);
+	room_goto(Room6);
 }
 
 if(keyboard_check_pressed(ord("4")))
 {
-	room_goto(TestRoom4);
+	room_goto(Room7);
 }
 
 if(keyboard_check_pressed(ord("5")))
 {
-	room_goto(TestRoom5);
+	room_goto(Room8);
 }
 
 if(keyboard_check_pressed(ord("6")))
 {
-	room_goto(TestRoom6);
+	room_goto(Room12);
 }
 
 if(keyboard_check_pressed(ord("7")))
 {
-	room_goto(TestRoom7);
-}
-
-if(keyboard_check_pressed(ord("8")))
-{
-	room_goto(TestRoom8);
+	room_goto(Room13);
 }
 
 
