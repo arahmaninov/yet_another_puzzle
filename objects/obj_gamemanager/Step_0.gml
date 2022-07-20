@@ -53,5 +53,5 @@ if(keyboard_check_pressed(ord("P")))
 
 if(keyboard_check_pressed(ord("T")))
 {
-	room_goto(Done);
+	room_goto(Room14);
 }

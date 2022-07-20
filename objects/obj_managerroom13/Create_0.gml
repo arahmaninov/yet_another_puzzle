@@ -26,5 +26,5 @@ global.targetArray = inventory2.inventory;
 global.solution = [Items.SphereGreen];
 
 // numbers of rooms for goNextRandomRoom 
-global.nextRoom1 = 4;
-global.nextRoom2 = 5;
+global.nextRoom1 = 14;
+global.nextRoom2 = 14;

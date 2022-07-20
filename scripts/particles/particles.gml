@@ -10,7 +10,7 @@ part_system_depth(ps, -100);
 //splash
 myParticle = part_type_create();
 part_type_shape(myParticle, pt_shape_star);
-part_type_size(myParticle, 0.2, 0.2, 0, 0);
+part_type_size(myParticle, 0.1, 0.1, 0, 0);
 part_type_scale(myParticle, 1, 1);
 part_type_orientation(myParticle, 0, 0, 0, 0, 0);
 part_type_color3(myParticle, 8454143, 65535, 33023);
